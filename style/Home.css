@@ -1,0 +1,13 @@
+/* .carousel-item{
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+} */
+
+#carousel-slide{
+max-height: 20%;    
+}
+
+.carousel-item img{
+    max-width: 100%;
+}

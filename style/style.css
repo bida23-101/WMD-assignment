@@ -1,0 +1,27 @@
+body {
+  background: url("../img/back.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.carousel-item h5, p{
+    color:cyan;
+    font-weight: bold;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: white;
+}
+
+.container h3{
+  color: white;
+}
