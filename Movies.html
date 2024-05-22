@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+   <!-- Navbar -->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">WarnerBros</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Movies.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Shows.html">TV Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Games.html">Games</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="Collections.html">Collections</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="Feedback.html">Feedback</a>
+          </li>
+        </ul>
+        <div class="col-md-3">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              name="form"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="basic-addon1"
+            />
+            <span class="input-group-text" id="basic-addon1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                ></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <section class="main">
+      <div class="container">
+        <!-- Top Movies -->
+        <h3>Top Movies</h3>
+        <div class="mb-3">
+          <div class="row">
+            <div class="col-sm">
+              <a href="Movie.html?id=4">
+                <img
+                class="img-thumbnail w-75"
+                  src="../img/friday.jpg"
+                  alt="First slide"
+                />
+                <p class="">Friday</p>
+              </a>
+            </div>
+
+            <div class="col-sm">
+              <a href="Movie.html?id=5">
+                <img
+                class="img-thumbnail w-75"
+                  src="../img/home alone.jpg"
+                  alt="First slide"
+                />
+                <p class="">Home Alone</p>
+              </a>
+            </div>
+
+            <div class="col-sm">
+              <img
+              class="img-thumbnail w-75"
+                src="../img/titanic.jpg"
+                alt="First slide"
+              />
+              <p class="">Titanic</p>
+            </div>
+
+            <div class="col-sm">
+              <img
+              class="img-thumbnail w-75"
+                src="../img/matrix.jpg"
+                alt="First slide"
+              />
+              <p class="">The Matrix</p>
+            </div>
+
+            <div class="col-sm">
+              <img
+              class="img-thumbnail w-75"
+                src="../img/apes.jpg"
+                alt="First slide"
+              />
+              <p class="">Kingdom Of The Planet Of The Apes</p>
+            </div>
+          </div>
+          <br />
+
+          <div class="row">
+            <div class="col-sm">
+              <a href="Movie.html?id=5">
+                <img
+                class="img-thumbnail"
+                  src="../img/madame web.jpg"
+                  alt="First slide"
+                />
+                <p class="">Madame Web</p>
+              </a>
+            </div>
+
+            <div class="col-sm">
+              <a href="Movie.html?id=5">
+                <img
+                class="img-thumbnail w-75"
+                  src="../img/inside out.jpeg"
+                  alt="First slide"
+                />
+                <p class="">Inside Out</p>
+              </a>
+            </div>
+
+            <div class="col-sm">
+              <img
+              class="img-thumbnail w-75"
+                src="../img/Godzilaa x Kong.png"
+                alt="First slide"
+              />
+              <p class="">Godzlilla X Kong: The New Empire</p>
+            </div>
+
+            <div class="col-sm">
+              <img
+              class="img-thumbnail w-75"
+                src="../img/garfield.jpg"
+                alt="First slide"
+              />
+              <p class="">The Garfield Movie</p>
+            </div>
+
+            <div class="col-sm">
+              <img
+              class="img-thumbnail w-75"
+                src="../img/Fall Guy.png"
+                alt="First slide"
+              />
+              <p class="">The Fall Guy</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- All Time Movies -->
+        <h3>All Time Movies</h3>
+        <div class="">
+          <div class="row">
+            <div class="col-sm">
+              <div class="carousel-item active">
+                <a href="Movie.html?id=5">
+                  <img
+                  class="img-thumbnail w-75"
+                    src="../img/babysitter club.jpg"
+                    alt="First slide"
+                  />
+                  <p class="">The Baby-Sitters Club</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <a href="Movie.html?id=5">
+                <img
+                class="img-thumbnail w-75"
+                  src="../img/batman returns.jpg"
+                  alt="First slide"
+                />
+                <p class="">Batman Returns</p>
+              </a>
+            </div>
+
+            <div class="col-sm">
+              <a href="Movie.html?id=5">
+                <img
+                class="img-thumbnail w-75"
+                  src="../img/boys-n-the-hood.jpg"
+                  alt="First slide"
+                />
+                <p class="">Boyz N The Hood</p>
+              </a>
+            </div>
+
+            <div class="col-sm">
+              <img
+              class="img-thumbnail w-75"
+                src="../img/dont tell mom.jpeg"
+                alt="First slide"
+              />
+              <p class="text-center">Don't Tell Mom The Babysitter's Dead</p>
+            </div>
+
+            <div class="col-sm">
+              <img
+              class="img-thumbnail w-75"
+                src="../img/hate about you.png"
+                alt="First slide"
+              />
+              <p class="text-center">10 Things I Hate About You</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="../scripts/media.js"></script>
+  </body>
+</html>
